@@ -1,0 +1,33 @@
+body {
+    font-family: poppins;
+    color: #fff;
+    background: url(car1.jpg) no-repeat center center/cover; ;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: #cb0808;
+}	
+
+.right {
+    right: 0;
+    background-color: #07369b;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

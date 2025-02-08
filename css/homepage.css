@@ -1,0 +1,36 @@
+.carousel-inner img {
+    height: 610px; /* Set desired height */
+    object-fit: cover; /* Ensure image fits nicely */
+}
+
+@media (min-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            text-align: center;
+        }
+}
+
+.spacious-container {
+    padding: 2rem 3rem; /* Add more padding */
+}
+
+.spacious-card {
+    margin-bottom: 2rem; /* Add space between cards */
+}
+
+.contact-form-bg {
+    background-color: #046ba7; /* Your desired background color */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#contact-details .form-group {
+    margin-bottom: 20px; /* Increase spacing between form groups */
+}
+
+#contact-details .btn {
+    width: 80%; /* Make the button full width */
+}
